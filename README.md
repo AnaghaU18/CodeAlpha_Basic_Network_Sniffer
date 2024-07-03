@@ -11,19 +11,19 @@ A network sniffer in Python that captures and analyzes network traffic to unders
 
   '''sh
   pip install scapy
-  '''
+  
 
 ## Usage
 To run the network sniffer, use the command:
 
 '''sh
-pyton main.py --interface <network_interface> --count <packet_count>
-'''
+python main.py --interface <network_interface> --count <packet_count>
+
 
 ### Example
 '''sh
 python main.py --interface eth0 --count 5
-'''
+
 
 ## Logging Format
 <delimiter>
